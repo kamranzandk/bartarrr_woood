@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>BartarWood | محصولات چوبی برتر وود</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #1e1b18;
+      color: #fff;
+    }
+
+    header {
+      background: #2c241c;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 3px solid #b58b5b;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    header p {
+      margin: 5px 0 0;
+      font-size: 16px;
+      color: #d6c1a3;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    h2 {
+      color: #d6c1a3;
+      margin-top: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    .card {
+      background: #2c241c;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 10px;
+    }
+
+    .card h3 {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #ddd;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 12px;
+      background: #b58b5b;
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .contact {
+      background: #2c241c;
+      padding: 20px;
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .wa {
+      background: #25D366;
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 5px;
+      display: inline-block;
+      margin: 5px;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      color: #aaa;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>BartarWood</h1>
+  <p>با مدیریت جناب آقای کامران زند با سابقه بالای سی سال در هنر نجاری و صنایع چوبی</p>
+</header>
+
+<div class="container">
+
+  <h2>🪑 صندلی راک</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="1.jpg">
+      <div class="card-content">
+        <h3>صندلی راک کلاسیک</h3>
+        <p>برای اطلاع از قیمت تماس بگیرید</p>
+        <a class="btn" href="#">سفارش</a>
+      </div>
+    </div>
+  </div>
+
+  <h2>🍽 میز و صندلی گرد / مثلثی</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="2.jpg">
+      <div class="card-content">
+        <h3>میز و صندلی گرد (۲ تا ۵ نفره)</h3>
+        <p>برای اطلاع از قیمت تماس بگیرید</p>
+        <a class="btn" href="#">سفارش</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="3.jpg">
+      <div class="card-content">
+        <h3>میز مثلثی (۲ تا ۶ نفره)</h3>
+        <p>برای اطلاع از قیمت تماس بگیرید</p>
+        <a class="btn" href="#">سفارش</a>
+      </div>
+    </div>
+  </div>
+
+  <h2>🪵 محصولات دیگر</h2>
+  <div class="grid">
+
+    <div class="card"><img src="4.jpg"><div class="card-content"><h3>کابینت MDF</h3><p>تماس بگیرید</p></div></div>
+    <div class="card"><img src="5.jpg"><div class="card-content"><h3>تخت سنتی</h3><p>تماس بگیرید</p></div></div>
+    <div class="card"><img src="6.jpg"><div class="card-content"><h3>رگال لباس</h3><p>تماس بگیرید</p></div></div>
+    <div class="card"><img src="7.jpg"><div class="card-content"><h3>TV بار</h3><p>تماس بگیرید</p></div></div>
+    <div class="card"><img src="8.jpg"><div class="card-content"><h3>جاکفشی MDF</h3><p>تماس بگیرید</p></div></div>
+    <div class="card"><img src="9.jpg"><div class="card-content"><h3>جاکفشی چوبی</h3><p>تماس بگیرید</p></div></div>
+    <div class="card"><img src="10.jpg"><div class="card-content"><h3>کمد دیواری</h3><p>تماس بگیرید</p></div></div>
+    <div class="card"><img src="11.jpg"><div class="card-content"><h3>دکور چوبی</h3><p>تماس بگیرید</p></div></div>
+    <div class="card"><img src="12.jpg"><div class="card-content"><h3>میز جلو مبلی</h3><p>تماس بگیرید</p></div></div>
+
+  </div>
+
+</div>
+
+<div class="contact">
+  <h2>📞 تماس با ما</h2>
+  <p>0901xxxxxxx</p>
+  <p>09046646281</p>
+
+  <a class="wa" href="https://wa.me/98XXXXXXXXXX">واتساپ 1</a>
+  <a class="wa" href="https://wa.me/98XXXXXXXXXX">واتساپ 2</a>
+</div>
+
+<footer>
+  © BartarWood - تمامی حقوق محفوظ است
+</footer>
+
+</body>
+</html>
+1.jpg
+2.jpg
+3.jpg
+...
+12.jpg
